@@ -23,7 +23,9 @@
     "start": "cds-serve"
   },
   "cds": {
+
     "requires": {
+      "db": "hana ",
       "[production]": {
         "auth": "xsuaa"
       },
